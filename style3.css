@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(179, 0, 30), rgb(0, 0, 91));
+}
+
+#bordaDireita{
+    left: 0;
+    height: 400px;
+}
+#bordaEsquerda{
+    padding: -5px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+}
+
+#texto1{
+    text-align: left;
+    display: flex;
+    background-color: #35522B;
+    width: 200px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 500px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Italianno", cursive;
+}
+
+#texto1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    border: white 3px solid;
+    box-shadow:  2px 2px 50px rgba(255, 255, 255, 0.5);
+}
+
+#texto2 {
+    display: flex;
+    padding: 0%;
+    justify-content: center; 
+    align-items: center; /* Centraliza verticalmente o texto */
+    background-color: #35522B;
+    width: 200px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    right: 500px;
+    position: absolute;
+    top: 404px;
+    
+    font-family: "Italianno", cursive;
+}
+
+
+#texto2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    border: white 3px solid;
+    box-shadow:  2px 2px 50px rgba(255, 255, 255, 0.5);
+}

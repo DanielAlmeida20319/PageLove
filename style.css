@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #457053;
+    align-items: center;
+}
+
+#cabecalho{
+    background-image: linear-gradient(to bottom, #0d1d25, #104c64);
+}
+
+#universoDescricao{
+    background-image: linear-gradient(to bottom, #0e4358, #0d1d25);
+
+}
+
+#obras{
+    background-image: linear-gradient(to bottom, #0d1d25, #104c64);
+
+}
+
+#fotos{
+    background-image: linear-gradient(to bottom, #104c64, #0d1d25);
+}
+
+#filmes{
+    background-image: linear-gradient(to bottom, #0d1d25, #00b7ff);
+
+}
+
+#locais{
+    background-image: linear-gradient(to bottom, #00b7ff, #00b7ff);
+
+}
+#bordaDireita{
+    left: 0;
+    height: 600px;
+}
+#bordaEsquerda{
+    padding: -5px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+}
+
+#moldura{
+    height: 390px;
+    justify-content: center;
+    display: flex;
+    margin: auto ;
+    margin-top: -550px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Adiciona uma transição de transformação */
+}
+
+#moldura:hover{
+   content: url('img/moldura2.png');
+}
+
+#filmesNossos, #tituloFotos, #tituloObra{
+    font-family: "Italianno", cursive;
+    text-align: center;
+    font-size: 100px;
+    background: linear-gradient(to right,#FFFFFF, #005E99 );
+    background-clip:content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Deixa o fundo transparente para mostrar o gradiente */
+    font-weight: 200;
+}
+
+p{
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    font-size: 20px;
+    width: 450px;
+    margin: auto;
+    color: gold;
+}
+
+#universo{
+    height: 900px;
+    margin: auto;
+    display: flex;
+    border-radius: 100%;
+    margin-top: -900px;
+    margin-bottom: 200px;
+    cursor: pointer;
+}
+#linha{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    margin-top: 200px;
+}
+
+#linha2, #linha3, #linha4{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+#figcaption{
+    display: flex;
+    margin: auto;
+    margin-top: -150px;
+}
+
+#texto1{
+    width: 50%;
+    margin-top: 2%;
+    color: ghostwhite;
+}
+
+#tituloObra, #titulo{
+    margin-top: 0px;
+}
+
+#texto2{
+    width: 50%;
+    margin-top: 2px;
+    color: ghostwhite;
+
+}
+
+#botaoTexto{
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+    border: #005E99 solid 3px;
+    width: 250px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#botaoTexto:hover{
+    background-color: #005E99;
+    color: gold;
+    box-shadow: 2px 2px 100px rgb(255, 255, 255);
+
+}
+
+
+#texto3{
+    width: 50%;
+    margin-top: 2px;
+    color: ghostwhite;
+
+}
+
+
+
+video{
+    max-width: 600px;
+    display: flex;
+    justify-self: center;
+    margin-top: -300px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 800px rgb(255, 255, 255);
+}
+
+#video{
+    margin-top: 50px;
+    width: 600px;
+}
+
+#marte{
+    height: 1500px;
+    margin-bottom: -900px;
+    margin-top: -200px;
+    display: flex;
+    justify-self: center;
+}
+
+#listaFilmes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 190px;
+    width: 400px;
+    font-size: 20px;
+    height: 50px;
+    background-color: maroon;
+    font-family: "Libre Baskerville", serif;
+}
+
+#listaFilmes:hover{
+        background-color: #005E99;
+        color: gold;
+        box-shadow: 2px 2px 100px rgb(255, 255, 255);
+}
+
+#passaros{
+    height: 500px;
+    display: flex;
+    margin-top: -1500px;
+    justify-self: right;
+}
+
+#nuvem{
+    height: 2000px;
+    width: 100%;
+    display: flex;
+    margin-top: -500px;
+    justify-self: center;
+
+}
+
+#video{
+    color: black;
+}
+
+#nossosLocais{
+    font-family: "Italianno", cursive;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 200;
+    background-clip:content-box;
+
+}
+
+#castelo{
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    opacity: 0.5;
+}
+
+#listaLocais{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 190px;
+    width: 400px;
+    font-size: 20px;
+    height: 50px;
+    background-color: maroon;
+    font-family: "Libre Baskerville", serif;
+}
