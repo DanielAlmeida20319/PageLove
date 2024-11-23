@@ -57,7 +57,7 @@ body{
 }
 
 #moldura:hover{
-   content: url('img/moldura2.png');
+   content: url('moldura2.png');
 }
 
 #filmesNossos, #tituloFotos, #tituloObra{
